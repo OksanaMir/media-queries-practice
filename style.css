@@ -1,0 +1,114 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Shantell Sans", cursive;
+  font-optical-sizing: auto;
+  font-size: 18px;
+  font-weight: 400;
+  font-variation-settings:
+    "BNCE" 100,
+    "INFM" 0,
+    "SPAC" 50;
+  margin: 0;
+  padding: 0;
+  background-color: #d3f4ff; /* mobile background */
+  color: #333;
+}
+
+header {
+  background-color: #ffcc00;
+  padding: 2vh 2vw;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.2em;
+}
+
+nav {
+  display: none; /* navigace skrytá na mobile */
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  list-style: none;
+  padding: 0;
+  margin: 1vh 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 4vh 4vw;
+}
+
+.hero img {
+  width: 70vw;
+  max-width: 300px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 2em;
+}
+
+.gallery img {
+  width: 60vw;
+  min-width: 100px;
+  height: auto;
+  border: 4px solid #ccc;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 2vh;
+  font-size: 0.9em;
+}
+
+/* TABLET - větší než 480px */
+
+/* 🖥 TABLET – přidej styly pro obrazovky větší než 480px */
+
+  /* ✅ ZVĚTŠI písmo pro nadpis v <header> */
+
+  /* ✅ Uprav velikost obrázků v galerii */
+
+  /* ✅ Zobraz navigaci */
+
+
+
+/* DESKTOP - větší než 768px */
+/* 🖥 DESKTOP – přidej styly pro obrazovky větší než 768px */
+
+  /* ✅ Změň barvu pozadí těla stránky */
+
+  /* ✅ Změň směr navigace (ul) z column na row */
+
+  /* ✅ Uspořádej galerie do řádků */
+
+  /* ✅ Změň velikost obrázku .hero img */
+
